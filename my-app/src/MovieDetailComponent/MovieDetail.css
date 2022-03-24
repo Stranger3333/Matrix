@@ -1,0 +1,117 @@
+.header{
+  border-radius: 25px;
+  height: 70px;
+  display:flex;
+  background:	#000000;
+  text-align:center;
+  justify-content: left;
+  text-decoration:none;
+}
+
+.matrix{
+  color: white;
+  font-size: 55px;
+  width: 700px;
+  font-family: Apple Chancery, cursive;
+  text-align: left;
+  display: inline;
+  margin-left:20px;
+
+}
+
+.search_input input[type='text']{
+  display: inline-block;
+  border-radius: 15px;
+  width: 100%;
+  height: 30px;
+  text-indent: 30px;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-position-y: 9px;
+  background-position-x: 580px;
+  /* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADbSURBVDhP5ZI9C4MwEIb7//+BEDgICA6C4OQgBJy6dRIEB6EgCNkEJ4e3iT2oHzH9wHbpAwfyJvfkJDnhYH4kHDVKlSAigSAQoCiBKjVGXvaxFXZnxBQYkSlBICII+22K4jM63rbHSthCSdsskVX9Y6KxR5XJSSpVy6GbpbBKp6aw0BzM0ShCe1iKihMXC6EuQtMQwukzPFu3fFd4+C+/cimUNxy6WQkNnmdzL3NYPfDmLVuhZf2wZYz80qDkKX1St3CXAfVMqq4cz3hTaGEpmctxDPmB0M/fCYEbAwZYyVKYcroAAAAASUVORK5CYII=) */
+}
+.search_input input[type='text']:focus{
+  border:solid 1px #ddd;
+  border-color: white;
+
+}
+.search_input {
+  margin-top: 25px;
+  margin-left: 100px;
+  position: relative;
+  width: 600px;
+}
+
+.search_input button{
+  color: white;
+  position: absolute;
+  top: 7px;
+  right: 0;
+  background-color: #fff;
+  border: none;
+  outline: none;  
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADbSURBVDhP5ZI9C4MwEIb7//+BEDgICA6C4OQgBJy6dRIEB6EgCNkEJ4e3iT2oHzH9wHbpAwfyJvfkJDnhYH4kHDVKlSAigSAQoCiBKjVGXvaxFXZnxBQYkSlBICII+22K4jM63rbHSthCSdsskVX9Y6KxR5XJSSpVy6GbpbBKp6aw0BzM0ShCe1iKihMXC6EuQtMQwukzPFu3fFd4+C+/cimUNxy6WQkNnmdzL3NYPfDmLVuhZf2wZYz80qDkKX1St3CXAfVMqq4cz3hTaGEpmctxDPmB0M/fCYEbAwZYyVKYcroAAAAASUVORK5CYII=)
+}
+
+.movie_body{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+}
+
+.movie_image{
+  float:left;
+  width: 45%;
+  height:400;
+  display: inline;
+}
+
+.movie_content{
+  float: left;
+  width: 45%;
+  height:400;
+  display: inline;
+  margin-left: -10px;
+}
+
+.movie_content a{
+  font-size: 25px;
+  font-family: Apple Chancery, cursive;
+}
+
+.movie_title{
+  width: 100%;
+  font-size: 40px;
+  font-family: Apple Chancery, cursive;
+}
+
+.movie_description{
+  float: left;
+  width: 100%;
+  font-size: 25px;
+  font-family: Apple Chancery, cursive;
+}
+
+.rating_comments{
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  float: left;
+}
+
+.rating_comments input{
+  font-size: 20px;
+  width: 250%;
+  height: 200px;
+  border-radius: 15px;
+}
+.rating_comments input::-webkit-input-placeholder{
+  position:absolute;
+  top:0;
+}
+/* .searchbar{
+
+} */
